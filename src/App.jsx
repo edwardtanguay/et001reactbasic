@@ -7,13 +7,15 @@ function App() {
 			<h1>Test Site</h1>
 			<h2>German Nouns</h2>
 			<p>There are {germanNouns.length} German nouns.</p>
-			{germanNouns.map((germanNoun) => {
-				return (
-					<div className="germanNoun">
-						<div>{germanNoun.singular}</div>
-					</div>
-				);
-			})}
+			<div className="germanNouns">
+				{germanNouns.map((germanNoun) => {
+					return (
+						<div className="germanNoun">
+							<div>{germanNoun.singular}</div>
+						</div>
+					);
+				})}
+			</div>
 		</div>
 	);
 }
