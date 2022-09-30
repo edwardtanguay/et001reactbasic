@@ -4,8 +4,8 @@
 		- x create box for each noun with e.g. 
 			- die Form
 			- die Formen
-	- display images
-	- components
+	- x display images
+	- .. components
 - more complicated
 	- load data from an API
 		- useState, useEffect
