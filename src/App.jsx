@@ -29,10 +29,15 @@ function App() {
 				{germanNouns.map((germanNoun) => {
 					return (
 						<div className="germanNoun">
-							<div className="singular">
-								{germanNoun.article} {germanNoun.singular}
+							<img src="images/cardback.jpg" />
+							<div className="info">
+								<div className="singular">
+									{germanNoun.article} {germanNoun.singular}
+								</div>
+								<div className="plural">
+									{germanNoun.plural}
+								</div>
 							</div>
-							<div className="plural">{germanNoun.plural}</div>
 						</div>
 					);
 				})}
