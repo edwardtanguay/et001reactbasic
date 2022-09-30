@@ -1,7 +1,7 @@
 - low-hanging fruit
 	- x install Sass
-	- .. data-driven site with JSON file
-		- .. create box for each noun with e.g. 
+	- x data-driven site with JSON file
+		- x create box for each noun with e.g. 
 			- die Form
 			- die Formen
 	- display images
