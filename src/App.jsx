@@ -11,7 +11,8 @@ function App() {
 				{germanNouns.map((germanNoun) => {
 					return (
 						<div className="germanNoun">
-							<div>{germanNoun.singular}</div>
+							<div className="singular">{germanNoun.article} {germanNoun.singular}</div>
+							<div className="plural">{germanNoun.plural}</div>
 						</div>
 					);
 				})}
